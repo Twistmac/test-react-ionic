@@ -1,10 +1,6 @@
-export interface customTableProps {
-    index: number;
-}
+import {ClientProps} from "../../interface/client.props";
 
-export interface Item {
-    key: string;
-    name: string;
-    age: string;
-    address: string;
+export interface customTableProps {
+    data: ClientProps[],
+    columns: any[]
 }
